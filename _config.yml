@@ -1,5 +1,5 @@
 # SITE CONFIGURATION
-baseurl: "/Type-on-Strap"
+baseurl: "" #"/Type-on-Strap"
 url: "https://coolwindjo.github.io"
 title: Type on Strap # site's title
 description: "Blog posts and pages with cool wind" # used by search engines
