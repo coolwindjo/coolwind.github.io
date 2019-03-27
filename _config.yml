@@ -9,13 +9,13 @@ description: "Blog posts and pages with cool wind" # used by search engines
 theme_settings:
   # Meta
   title: Cool wind on prob_solv # blog's title
-  avatar: assets/img/triangle.svg
-  favicon: assets/favicon.ico
+  avatar: assets/img/cls.png
+  favicon: assets/img/cls.png 
   gravatar: # Email MD5 hash
 
   # Header and footer text
   header_text: Cool wind on studying algorithm <code>prob_solv</code>
-  header_feature_image: assets/img/pexels/triangular.jpeg
+  header_feature_image: assets/img/pexels/cls63amg_running.jpeg
   footer_text: >
     Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
 
