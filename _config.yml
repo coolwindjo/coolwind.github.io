@@ -17,7 +17,7 @@ theme_settings:
   header_text: Cool wind on studying algorithm <code>prob_solv</code>
   header_feature_image: assets/img/pexels/cls63amg_running.jpeg
   footer_text: >
-    Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
+    © 2019 coolwind@outlook.kr All rights reserved. Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
 
   # Icons
   rss: true  # Make sure you created a feed.xml with feed.xml layout
