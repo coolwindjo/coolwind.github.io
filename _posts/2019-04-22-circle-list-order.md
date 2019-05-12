@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "CircleListOrder"
+title: "Circle List Order"
 tags:
 - C++
 - circlelist
