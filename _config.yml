@@ -21,7 +21,7 @@ theme_settings:
 
   # Icons
   rss: true  # Make sure you created a feed.xml with feed.xml layout
-  email_address: # Full email address, e.g. "sam@example.com"
+  email_address: "coolwind@hotmail.co.kr"  # Full email address, e.g. "sam@example.com"
   behance:
   bitbucket:
   dribbble:
@@ -41,7 +41,7 @@ theme_settings:
   tumblr:
   twitter: # "twitter username"
   vimeo:
-  wordpress:
+  wordpress: "coolwindjo"
   youtube:
   
   # Sharing options
@@ -54,7 +54,7 @@ theme_settings:
     pocket:
     reddit: true
     linkedin:
-    wordpress:
+    wordpress: true
     email: true
 
   # Scripts / Features 
