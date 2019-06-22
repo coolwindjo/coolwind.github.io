@@ -1,11 +1,12 @@
 ---
+title: Connect Pipes
 layout: post
-title: "Connect Pipes"
 tags:
 - C++
 - DFS
 - BFS
 - STL
+- queue
 ---
 
 ### GitHub
@@ -78,4 +79,3 @@ void BFS(const ii start){
 	}
 }
 {% endhighlight %}
-

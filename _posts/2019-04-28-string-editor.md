@@ -1,10 +1,10 @@
 ---
+title: String Editor
 layout: post
-title: "String Editor"
 tags:
 - C++
-- linkedlist
 - STL
+- list
 ---
 
 ### GitHub
@@ -66,4 +66,3 @@ void EditStr(const int numCmds){
     }
 }
 {% endhighlight %}
-

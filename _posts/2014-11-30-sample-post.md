@@ -1,9 +1,10 @@
 ---
-layout: post
 title: Sample post
-tags: [A Tag, Test, Lorem, Ipsum]
-hidden: true
-excerpt_separator: <!--more-->
+layout: post
+hidden: false
+excerpt_separator: "<!--more-->"
+tag:
+- excerpt_separator
 ---
 
 Consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor. 

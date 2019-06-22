@@ -1,7 +1,9 @@
 ---
-layout: post
 title: Generate a table of content
-tags: [toc.js, kramdown, Markdown, Customization]
+layout: post
+tags:
+- toc.js
+- kramdown
 hidden: true
 ---
 

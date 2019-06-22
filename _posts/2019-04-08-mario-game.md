@@ -4,7 +4,7 @@ layout: post
 tags:
 - C++
 - implementation
-- logics
+- logic
 ---
 
 ### GitHub

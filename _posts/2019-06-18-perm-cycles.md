@@ -3,7 +3,7 @@ title: Permutation Cycles
 layout: post
 tags:
 - C++
-- unordered set
+- unordered_set
 - STL
 ---
 

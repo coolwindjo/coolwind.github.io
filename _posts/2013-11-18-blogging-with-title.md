@@ -1,8 +1,9 @@
 ---
-layout: post
 title: Blogging with title
-tags: [Test, Ipsum, Markdown, Portfolio]
+layout: post
 hidden: true
+tag:
+- kramdown
 ---
 
 # I am a BIG title

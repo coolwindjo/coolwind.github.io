@@ -1,10 +1,11 @@
 ---
+title: Circle List Order
 layout: post
-title: "Circle List Order"
 tags:
 - C++
-- circlelist
+- list
 - STL
+- advance
 ---
 
 ### GitHub
@@ -37,4 +38,3 @@ FOR(i, N){
     curN = numL.size();
 }
 {% endhighlight %}
-
