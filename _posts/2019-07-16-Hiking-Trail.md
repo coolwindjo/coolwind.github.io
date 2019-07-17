@@ -69,7 +69,6 @@ tags:
 
 		m_map[pos.first][pos.second].first = 0; // backtracking!
 	}
-};
 
 
 {% endhighlight %}
