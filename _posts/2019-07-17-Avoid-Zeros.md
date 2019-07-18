@@ -2,6 +2,7 @@
 title: Avoid Zeros
 layout: post
 tags:
+- C++
 - dynamic programing
 - mathematics
 - big number
