@@ -44,7 +44,6 @@ tags:
 			const int col = cost_pos.second.second;
 
 			// Check if it's deprecated cost
-            P_IFNOT(cost >= 0, cost);
 			if (cost > m_map[row][col].first) continue;
 
 			FOR(dir, eDIR_LEN) {
