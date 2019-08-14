@@ -129,7 +129,7 @@ tags:
 {% endhighlight %}
 
 
-## Source with respectice queues for each life time
+## Source with respective queues for each life time
 {% highlight cpp %}
 
 #pragma GCC optimize("O3")
