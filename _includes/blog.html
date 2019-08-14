@@ -27,7 +27,7 @@
 
 {% if paginator.total_pages > 1 %}
 <div class="pagination" style="display: inline-block;">
-    <div style="position: absolute; left: 35%;">
+    <div style="position: absolute; left: 15%;">
     {% if paginator.previous_page %}
         <!-- << -->
         {% if paginator.previous_page != 1 %}
@@ -51,7 +51,7 @@
         </div>    
     </div> -->     
 
-    <div style="position: absolute; right: 35%;">
+    <div style="position: absolute; right: 15%;">
     {% if paginator.next_page %}
         <!-- next > -->
         <a alt="{{ site.theme_settings.str_next_page }}" 
