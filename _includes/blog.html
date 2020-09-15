@@ -18,7 +18,7 @@
             </p>
           </header>
           <div class="excerpt">
-              {{ post.excerpt | strip_html | escape }}
+              {{ post.excerpt | strip_html | excape | truncatewords: 2 }}
           </div>
       </span>
     </div>
