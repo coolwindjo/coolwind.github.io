@@ -15,6 +15,7 @@ _development_tool/*
 *.css.map
 *.scssc
 .bundle/*
+.jekyll-metadata
 
 # Theme Gem files
 *.gem
