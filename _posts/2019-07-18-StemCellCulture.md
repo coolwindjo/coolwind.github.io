@@ -8,12 +8,8 @@ tags:
 - STL::queue
 ---
 
-### GitHub
-[StemCellCulture](https://github.com/coolwindjo/RefCodes/tree/master/AlgoGuruProject/Cpp/Done/StemCellCulture "StemCellCulture")
-
-![StemCellCulture]({{ "/assets/img/posting/stem_cell_culture.png" | relative_url }})
-
 ### Source
+
 {% highlight cpp %}
 
 	explicit CProbSolve(const int N, const int M, const int K) {
@@ -206,5 +202,10 @@ int main() {
     return 0;
 }
 
-
 {% endhighlight %}
+
+### GitHub
+
+[StemCellCulture](https://github.com/coolwindjo/RefCodes/tree/master/AlgoGuruProject/Cpp/Done/StemCellCulture "StemCellCulture")
+
+![StemCellCulture]({{ "/assets/img/posting/stem_cell_culture.png" | relative_url }})

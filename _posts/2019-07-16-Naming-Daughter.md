@@ -7,12 +7,8 @@ tags:
 - unique and erase vector
 ---
 
-### GitHub
-[NamingDaughter](https://github.com/coolwindjo/RefCodes/tree/master/AlgoGuruProject/Cpp/Done/NamingDaughter "NamingDaughter")
-
-![NamingDaughter]({{ "/assets/img/posting/naming_daughter.png" | relative_url }})
-
 ### Source
+
 {% highlight cpp %}
 
 
@@ -63,3 +59,9 @@ tags:
 	}
 
 {% endhighlight %}
+
+### GitHub
+
+[NamingDaughter](https://github.com/coolwindjo/RefCodes/tree/master/AlgoGuruProject/Cpp/Done/NamingDaughter "NamingDaughter")
+
+![NamingDaughter]({{ "/assets/img/posting/naming_daughter.png" | relative_url }})

@@ -9,12 +9,8 @@ tags:
 - DFS pitfall
 ---
 
-### GitHub
-[AvoidZeros](https://github.com/coolwindjo/RefCodes/tree/master/AlgoGuruProject/Cpp/Done/AvoidZeros "AvoidZeros")
-
-![AvoidZeros]({{ "/assets/img/posting/avoid_zeros.png" | relative_url }})
-
 ### Source
+
 {% highlight cpp %}
 
 	explicit CProbSolve(const int N) {
@@ -81,3 +77,9 @@ tags:
 	}
 
 {% endhighlight %}
+
+### GitHub
+
+[AvoidZeros](https://github.com/coolwindjo/RefCodes/tree/master/AlgoGuruProject/Cpp/Done/AvoidZeros "AvoidZeros")
+
+![AvoidZeros]({{ "/assets/img/posting/avoid_zeros.png" | relative_url }})

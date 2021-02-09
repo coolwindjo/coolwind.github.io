@@ -8,12 +8,8 @@ tags:
 - 
 ---
 
-### GitHub
-[RoadConstruction](https://github.com/coolwindjo/RefCodes/tree/master/AlgoGuruProject/Cpp/Done/RoadConstruction "RoadConstruction")
-
-![RoadConstruction]({{ "/assets/img/posting/road_construction.png" | relative_url }})
-
 ### Source
+
 {% highlight cpp %}
 
 	explicit CProbSolve(const int N) {
@@ -74,3 +70,9 @@ tags:
 	}
 
 {% endhighlight %}
+
+### GitHub
+
+[RoadConstruction](https://github.com/coolwindjo/RefCodes/tree/master/AlgoGuruProject/Cpp/Done/RoadConstruction "RoadConstruction")
+
+![RoadConstruction]({{ "/assets/img/posting/road_construction.png" | relative_url }})

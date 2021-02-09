@@ -7,12 +7,8 @@ tags:
 - logic
 ---
 
-### GitHub
-[MarioGame](https://github.com/coolwindjo/RefCodes/tree/master/AlgoGuruProject/Cpp/Done/MarioGame "MarioGame")
-
-![MarioGame]({{ "/assets/img/posting/mario.png" | relative_url }})
-
 ### Source
+
 {% highlight cpp %}
 const int FindMaxH(const int N, const int (&P)[MAX_N])
 {
@@ -38,3 +34,9 @@ const int FindMaxH(const int N, const int (&P)[MAX_N])
 	return h;
 }
 {% endhighlight %}
+
+### GitHub
+
+[MarioGame](https://github.com/coolwindjo/RefCodes/tree/master/AlgoGuruProject/Cpp/Done/MarioGame "MarioGame")
+
+![MarioGame]({{ "/assets/img/posting/mario.png" | relative_url }})

@@ -6,12 +6,8 @@ tags:
 - Floyd-Warshall
 ---
 
-### GitHub
-[Warehouse](https://github.com/coolwindjo/RefCodes/tree/master/AlgoGuruProject/Cpp/Done/Warehouse "Warehouse")
-
-![Warehouse]({{ "/assets/img/posting/warehouse.png" | relative_url }})
-
 ### Source
+
 {% highlight cpp %}
 // Init
 FOR(i, N){
@@ -56,3 +52,9 @@ FOR(k, N){
 }
 ans = minWorst;
 {% endhighlight %}
+
+### GitHub
+
+[Warehouse](https://github.com/coolwindjo/RefCodes/tree/master/AlgoGuruProject/Cpp/Done/Warehouse "Warehouse")
+
+![Warehouse]({{ "/assets/img/posting/warehouse.png" | relative_url }})

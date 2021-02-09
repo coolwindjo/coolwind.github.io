@@ -8,12 +8,8 @@ tags:
 - advance
 ---
 
-### GitHub
-[CircleListOrder](https://github.com/coolwindjo/RefCodes/tree/master/AlgoGuruProject/Cpp/Done/CircleListOrder "CircleListOrder")
-
-![CircleListOrder]({{ "/assets/img/posting/circlelist_order.png" | relative_url }})
-
 ### Source
+
 {% highlight cpp %}
 int curN = N;
 int curS = S-1;
@@ -38,3 +34,9 @@ FOR(i, N){
     curN = numL.size();
 }
 {% endhighlight %}
+
+### GitHub
+
+[CircleListOrder](https://github.com/coolwindjo/RefCodes/tree/master/AlgoGuruProject/Cpp/Done/CircleListOrder "CircleListOrder")
+
+![CircleListOrder]({{ "/assets/img/posting/circlelist_order.png" | relative_url }})

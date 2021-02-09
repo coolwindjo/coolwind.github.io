@@ -6,12 +6,8 @@ tags:
 - DFS with backtracking
 ---
 
-### GitHub
-[HikingTrail](https://github.com/coolwindjo/RefCodes/tree/master/AlgoGuruProject/Cpp/Done/HikingTrail "HikingTrail")
-
-![HikingTrail]({{ "/assets/img/posting/hiking_trail.png" | relative_url }})
-
 ### Source
+
 {% highlight cpp %}
 
 	void _DFS(const ii& pos, const int dist, const bool bDigged) {
@@ -72,3 +68,9 @@ tags:
 
 
 {% endhighlight %}
+
+### GitHub
+
+[HikingTrail](https://github.com/coolwindjo/RefCodes/tree/master/AlgoGuruProject/Cpp/Done/HikingTrail "HikingTrail")
+
+![HikingTrail]({{ "/assets/img/posting/hiking_trail.png" | relative_url }})

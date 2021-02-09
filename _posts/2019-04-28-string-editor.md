@@ -7,12 +7,8 @@ tags:
 - list
 ---
 
-### GitHub
-[StringEditor](https://github.com/coolwindjo/RefCodes/tree/master/AlgoGuruProject/Cpp/Done/StringEditor "StringEditor")
-
-![StringEditor]({{ "/assets/img/posting/string_editor.png" | relative_url }})
-
 ### Source
+
 {% highlight cpp %}
 
 int Left(int pos){
@@ -66,3 +62,9 @@ void EditStr(const int numCmds){
     }
 }
 {% endhighlight %}
+
+### GitHub
+
+[StringEditor](https://github.com/coolwindjo/RefCodes/tree/master/AlgoGuruProject/Cpp/Done/StringEditor "StringEditor")
+
+![StringEditor]({{ "/assets/img/posting/string_editor.png" | relative_url }})

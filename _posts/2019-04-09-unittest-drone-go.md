@@ -7,11 +7,8 @@ tags:
 - unittest
 ---
 
-### GitHub (n/a)
-
-![DroneGo]({{ "/assets/img/posting/drone_go.png" | relative_url }})
-
 ### Source
+
 {% highlight cpp %}
 /**
  * (y, x) 좌표를 표현하는 자료구조
@@ -110,3 +107,7 @@ void test_3_1()
 	dc.selectDrone();
 }
 {% endhighlight %}
+
+### GitHub (n/a)
+
+![DroneGo]({{ "/assets/img/posting/drone_go.png" | relative_url }})

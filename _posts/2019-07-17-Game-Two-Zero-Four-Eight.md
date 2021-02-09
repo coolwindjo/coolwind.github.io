@@ -7,12 +7,8 @@ tags:
 - DFS with backtracking
 ---
 
-### GitHub
-[Game2048](https://github.com/coolwindjo/RefCodes/tree/master/AlgoGuruProject/Cpp/Done/Game2048 "Game2048")
-
-![Game2048]({{ "/assets/img/posting/game_2048.png" | relative_url }})
-
 ### Source
+
 {% highlight cpp %}
 
 	void _DFS(const vvi &map, const int numMoves, const Dir_e dir) {
@@ -369,3 +365,9 @@ tags:
 
 
 {% endhighlight %}
+
+### GitHub
+
+[Game2048](https://github.com/coolwindjo/RefCodes/tree/master/AlgoGuruProject/Cpp/Done/Game2048 "Game2048")
+
+![Game2048]({{ "/assets/img/posting/game_2048.png" | relative_url }})

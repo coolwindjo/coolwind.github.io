@@ -7,12 +7,8 @@ tags:
 - STL
 ---
 
-### GitHub
-[PermCycles](https://github.com/coolwindjo/RefCodes/tree/master/AlgoGuruProject/Cpp/Done/PermCycles "PermCycles")
-
-![PermCycles]({{ "/assets/img/posting/perm_cycles.png" | relative_url }})
-
 ### Source
+
 {% highlight cpp %}
         FOR(i, m_N){
             usi::iterator it = m_usiPerm.find(i+1);
@@ -43,3 +39,9 @@ tags:
         }
 
 {% endhighlight %}
+
+### GitHub
+
+[PermCycles](https://github.com/coolwindjo/RefCodes/tree/master/AlgoGuruProject/Cpp/Done/PermCycles "PermCycles")
+
+![PermCycles]({{ "/assets/img/posting/perm_cycles.png" | relative_url }})

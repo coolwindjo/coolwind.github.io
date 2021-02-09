@@ -6,12 +6,8 @@ tags:
 - implementation
 ---
 
-### GitHub
-[CellCompete](https://github.com/coolwindjo/RefCodes/tree/master/AlgoGuruProject/Cpp/Done/CellCompete "CellCompete")
-
-![CellCompete]({{ "/assets/img/posting/cell_compete.png" | relative_url }})
-
 ### Source
+
 {% highlight cpp %}
 
     vector<int> cellCompete(int* states, int days){
@@ -57,3 +53,9 @@ tags:
 
 
 {% endhighlight %}
+
+### GitHub
+
+[CellCompete](https://github.com/coolwindjo/RefCodes/tree/master/AlgoGuruProject/Cpp/Done/CellCompete "CellCompete")
+
+![CellCompete]({{ "/assets/img/posting/cell_compete.png" | relative_url }})

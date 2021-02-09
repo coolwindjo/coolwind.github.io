@@ -7,12 +7,8 @@ tags:
 - difference from model
 ---
 
-### GitHub
-[LED_OnOffPattern](https://github.com/coolwindjo/RefCodes/tree/master/AlgoGuruProject/Cpp/Done/LED_OnOffPattern "LED_OnOffPattern")
-
-![LED_OnOffPattern]({{ "/assets/img/posting/led_onoffpattern.png" | relative_url }})
-
 ### Source
+
 {% highlight cpp %}
 
 void FindViolationPatterns(vector<vii> &vviiCandLists)
@@ -57,3 +53,9 @@ int FindMaxLengthWithFlip(const vector<vii> &vviiCandLists)
 	return maxLen;
 }
 {% endhighlight %}
+
+### GitHub
+
+[LED_OnOffPattern](https://github.com/coolwindjo/RefCodes/tree/master/AlgoGuruProject/Cpp/Done/LED_OnOffPattern "LED_OnOffPattern")
+
+![LED_OnOffPattern]({{ "/assets/img/posting/led_onoffpattern.png" | relative_url }})

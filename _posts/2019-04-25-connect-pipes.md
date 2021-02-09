@@ -9,12 +9,8 @@ tags:
 - queue
 ---
 
-### GitHub
-[ConnectPipes](https://github.com/coolwindjo/RefCodes/tree/master/AlgoGuruProject/Cpp/Done/ConnectPipes "ConnectPipes")
-
-![ConnectPipes]({{ "/assets/img/posting/connect_pipes.png" | relative_url }})
-
 ### Source
+
 {% highlight cpp %}
 enum eDir{
 	eD = 0,
@@ -79,3 +75,9 @@ void BFS(const ii start){
 	}
 }
 {% endhighlight %}
+
+### GitHub
+
+[ConnectPipes](https://github.com/coolwindjo/RefCodes/tree/master/AlgoGuruProject/Cpp/Done/ConnectPipes "ConnectPipes")
+
+![ConnectPipes]({{ "/assets/img/posting/connect_pipes.png" | relative_url }})
