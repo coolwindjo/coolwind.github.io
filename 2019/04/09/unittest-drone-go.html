@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<!--
+    Type on Strap jekyll theme v2.2.6
+    Copyright 2016-2020 Sylhare
+    Theme free for personal and commercial use under the MIT license
+    https://github.com/sylhare/Type-on-Strap/blob/master/LICENSE
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- Main JS (navbar.js, katex_init.js and masonry_init.js)-->
+    <script defer src="/algoguru/assets/js/main.min.js"></script>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="/algoguru/assets/css/main.css">
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="/algoguru/assets/img/cls.png" type="image/x-icon">
+
+    <!-- RSS -->
+    <link rel="alternate" type="application/atom+xml" title="Cool wind on prob_solv" href="https://coolwindjo.github.io/algoguru/feed.xml"/>
+    
+    
+
+    <!-- KaTeX 0.12.0 -->
+    <!-- if you have any issue check https://github.com/KaTeX/KaTeX -->
+    
+    <script defer src="/algoguru/assets/js/vendor/katex.min.js"></script>
+    <script defer src="/algoguru/assets/js/vendor/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
+    
+
+    <!-- Google Analytics / Cookie Consent -->
+    <script>
+      const cookieName = 'cookie-notice-dismissed-https://coolwindjo.github.io';
+      const isCookieConsent = 'false';
+      const analyticsName = '';
+    </script>
+
+    
+    
+
+    <!-- seo tags -->
+    <meta property="og:image" content="https://coolwindjo.github.io/algoguru/assets/img/pexels/cls63amg_running.jpeg">
+    
+    <meta property="og:type" content="website" />
+    
+    <!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>UnitTest: Drone Go | Cool wind on prob_solv</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="UnitTest: Drone Go" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Source" />
+<meta property="og:description" content="Source" />
+<link rel="canonical" href="https://coolwindjo.github.io/algoguru/2019/04/09/unittest-drone-go.html" />
+<meta property="og:url" content="https://coolwindjo.github.io/algoguru/2019/04/09/unittest-drone-go.html" />
+<meta property="og:site_name" content="Cool wind on prob_solv" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-04-09T00:00:00+00:00" />
+<script type="application/ld+json">
+{"description":"Source","url":"https://coolwindjo.github.io/algoguru/2019/04/09/unittest-drone-go.html","@type":"BlogPosting","headline":"UnitTest: Drone Go","dateModified":"2019-04-09T00:00:00+00:00","datePublished":"2019-04-09T00:00:00+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://coolwindjo.github.io/algoguru/2019/04/09/unittest-drone-go.html"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <!-- RSS -->
+    <link type="application/atom+xml" rel="alternate" href="https://coolwindjo.github.io/algoguru/feed.xml" title="Cool wind on prob_solv" />
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:title" content="UnitTest: Drone Go">
+    <meta name="twitter:description" content="Source/** * (y, x) 좌표를 표현하는 자료구조 *typedef struct pos {	int y;	int x;} POS;/** * 화재 감지 센서 인터페이스 *class FireSensor{public:	/**	 * 현재 화재를 감지한 센서의 위치 값을 반환	 * @r...">
+    
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:image" content="https://coolwindjo.github.io/algoguru/assets/img/pexels/cls63amg_running.jpeg">
+    <meta name="twitter:image:alt" content="UnitTest: Drone Go">
+</head>
+
+  <body>
+    <header class="site-header">
+
+    <!-- Logo and title -->
+	<div class="branding">
+        
+		<a href="/algoguru/">
+			<img alt="logo img" class="avatar" src="/algoguru/assets/img/cls.png" />
+		</a>
+        
+        <a class="site-title" aria-label="Cool wind on prob_solv" href="/algoguru/">
+        Cool wind on prob_solv
+		</a>
+	</div>
+
+    <!-- Toggle menu -->
+    <nav class="clear">
+    <a aria-label="pull" id="pull" class="toggle" href="#">
+    <i class="fa fa-bars fa-lg"></i>
+    </a>
+
+    <!-- Menu -->
+    <ul class="hide">
+        
+
+        
+            
+            
+        
+            
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="About" title="About" href="/algoguru/about/">
+                     About 
+                </a>
+            </li>
+            
+            
+        
+            
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="Gallery" title="Gallery" href="/algoguru/gallery/">
+                     Gallery 
+                </a>
+            </li>
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="Portfolio" title="Portfolio" href="/algoguru/portfolio/">
+                     Portfolio 
+                </a>
+            </li>
+            
+            
+        
+            
+            
+        
+            
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="Search" title="Search" href="/algoguru/search/">
+                     <i class="fa fa-search" aria-hidden="true"></i>
+                    
+                </a>
+            </li>
+            
+            
+        
+            
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="Tags" title="Tags" href="/algoguru/tags/">
+                     <i class="fa fa-tags" aria-hidden="true"></i>
+                    
+                </a>
+            </li>
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+    </ul>
+
+	</nav>
+</header>
+
+    <div class="content">
+      <article >
+  <header id="main" style="">
+    <div class="title-padder">
+      
+      <h1 id="UnitTest%3A+Drone+Go" class="title">UnitTest: Drone Go</h1>
+      
+
+
+<div class="post-info">
+    <p class="meta">
+      April 9, 2019
+    </p></div>
+
+      
+    </div>
+  </header>
+
+  <section class="post-content">
+  
+      <h3 id="source">Source</h3>
+
+<figure class="highlight"><pre><code class="language-cpp" data-lang="cpp"><span class="o">/**</span>
+ <span class="o">*</span> <span class="p">(</span><span class="n">y</span><span class="p">,</span> <span class="n">x</span><span class="p">)</span> <span class="err">좌표를</span> <span class="err">표현하는</span> <span class="err">자료구조</span>
+ <span class="o">*</span>
+<span class="k">typedef</span> <span class="k">struct</span> <span class="nc">pos</span> <span class="p">{</span>
+	<span class="kt">int</span> <span class="n">y</span><span class="p">;</span>
+	<span class="kt">int</span> <span class="n">x</span><span class="p">;</span>
+<span class="p">}</span> <span class="n">POS</span><span class="p">;</span>
+
+<span class="o">/**</span>
+ <span class="o">*</span> <span class="err">화재</span> <span class="err">감지</span> <span class="err">센서</span> <span class="err">인터페이스</span>
+ <span class="o">*</span>
+<span class="k">class</span> <span class="nc">FireSensor</span>
+<span class="p">{</span>
+<span class="nl">public:</span>
+	<span class="o">/**</span>
+	 <span class="o">*</span> <span class="err">현재</span> <span class="err">화재를</span> <span class="err">감지한</span> <span class="err">센서의</span> <span class="err">위치</span> <span class="err">값을</span> <span class="err">반환</span>
+	 <span class="o">*</span> <span class="err">@</span><span class="k">return</span> <span class="n">POS</span> <span class="err">타입의</span> <span class="p">(</span><span class="n">y</span><span class="p">,</span> <span class="n">x</span><span class="p">)</span> <span class="err">좌표</span><span class="p">.</span> <span class="err">예를</span> <span class="err">들어</span><span class="p">,</span> <span class="mi">1</span><span class="err">번</span> <span class="err">센서에서</span> <span class="err">화재를</span> <span class="err">감지한</span> <span class="err">경우</span> <span class="p">{</span><span class="mi">1</span><span class="p">,</span> <span class="mi">10</span><span class="p">}</span><span class="err">을</span> <span class="err">반환</span>
+	 <span class="o">*</span>
+	<span class="k">virtual</span> <span class="n">POS</span> <span class="n">getSensorPosition</span><span class="p">()</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">};</span>
+
+<span class="o">/**</span>
+ <span class="o">*</span> <span class="err">드론</span> <span class="err">관제</span> <span class="err">시스템</span> <span class="p">(</span><span class="err">테스트</span> <span class="err">대상</span><span class="p">)</span>
+ <span class="o">*</span>
+<span class="k">class</span> <span class="nc">DroneController</span>
+<span class="p">{</span>
+	<span class="n">POS</span> <span class="n">currentDrone1_</span> <span class="o">=</span> <span class="p">{</span> <span class="mi">0</span><span class="p">,</span><span class="mi">0</span> <span class="p">};</span>
+	<span class="n">POS</span> <span class="n">currentDrone2_</span> <span class="o">=</span> <span class="p">{</span> <span class="mi">10</span><span class="p">,</span><span class="mi">10</span> <span class="p">};</span>
+	
+	<span class="n">FireSensor</span><span class="o">*</span> <span class="n">sensor_</span><span class="p">;</span>
+	<span class="p">...</span>
+<span class="nl">public:</span>
+	<span class="n">DroneController</span><span class="p">(</span><span class="n">FireSensor</span><span class="o">*</span> <span class="n">sensor</span><span class="p">)</span> <span class="o">:</span> <span class="n">sensor_</span><span class="p">(</span><span class="n">sensor</span><span class="p">)</span> <span class="p">{</span> <span class="p">...</span> <span class="p">}</span>
+	
+	<span class="o">/**</span>
+	 <span class="o">*</span> <span class="err">화재가</span> <span class="err">발생한</span> <span class="err">위치를</span> <span class="err">얻어와서</span> <span class="err">현재</span> <span class="err">드론과의</span> <span class="err">위치를</span> <span class="err">계산하여</span> <span class="err">가장</span> <span class="err">가까운</span> <span class="err">드론을</span> <span class="err">선택하는</span> <span class="err">함수</span> <span class="p">(</span><span class="err">테스트</span> <span class="err">대상</span><span class="p">)</span>
+	 <span class="o">*</span> <span class="err">다음</span> <span class="err">위치</span> <span class="err">계산을</span> <span class="err">위해</span> <span class="err">선택된</span> <span class="err">드론의</span> <span class="err">위치를</span> <span class="err">저장해둔다</span><span class="p">.</span> <span class="p">(</span><span class="err">선택된</span> <span class="err">드론이</span> <span class="err">해당</span> <span class="err">좌표로</span> <span class="err">이동함을</span> <span class="err">가정</span><span class="p">)</span>
+	 <span class="o">*</span> <span class="err">@</span><span class="k">return</span> <span class="err">화재가</span> <span class="err">발생한</span> <span class="err">곳과</span> <span class="err">가장</span> <span class="err">가까운</span> <span class="err">드론의</span> <span class="err">번호</span><span class="p">.</span> <span class="mi">1</span> <span class="err">혹은</span> <span class="mi">2</span>
+	 <span class="o">*</span>
+	<span class="kt">int</span> <span class="n">selectDrone</span><span class="p">()</span>
+	<span class="p">{</span>
+		<span class="n">POS</span> <span class="n">sensed</span> <span class="o">=</span> <span class="n">sensor_</span><span class="o">-&gt;</span><span class="n">getSensorPosition</span><span class="p">();</span>  <span class="c1">// 화제를 감지한 센서의 위치 획득</span>
+
+		<span class="kt">int</span> <span class="n">dx</span> <span class="o">=</span> <span class="n">currentDrone1_</span><span class="p">.</span><span class="n">x</span> <span class="o">-</span> <span class="n">sensed</span><span class="p">.</span><span class="n">x</span><span class="p">;</span>
+		<span class="kt">int</span> <span class="n">dy</span> <span class="o">=</span> <span class="n">currentDrone1_</span><span class="p">.</span><span class="n">y</span> <span class="o">-</span> <span class="n">sensed</span><span class="p">.</span><span class="n">y</span><span class="p">;</span>
+		<span class="kt">int</span> <span class="n">dist1</span> <span class="o">=</span> <span class="n">dx</span><span class="o">*</span><span class="n">dx</span> <span class="o">+</span> <span class="n">dy</span><span class="o">*</span><span class="n">dy</span><span class="p">;</span>
+
+		<span class="n">dx</span> <span class="o">=</span> <span class="n">currentDrone2_</span><span class="p">.</span><span class="n">x</span> <span class="o">-</span> <span class="n">sensed</span><span class="p">.</span><span class="n">x</span><span class="p">;</span>
+		<span class="n">dy</span> <span class="o">=</span> <span class="n">currentDrone2_</span><span class="p">.</span><span class="n">y</span> <span class="o">-</span> <span class="n">sensed</span><span class="p">.</span><span class="n">y</span><span class="p">;</span>
+		<span class="kt">int</span> <span class="n">dist2</span> <span class="o">=</span> <span class="n">dx</span><span class="o">*</span><span class="n">dx</span> <span class="o">+</span> <span class="n">dy</span><span class="o">*</span><span class="n">dy</span><span class="p">;</span>
+
+		<span class="k">if</span> <span class="p">(</span><span class="n">dist2</span> <span class="o">&gt;=</span> <span class="n">dist1</span><span class="p">)</span>
+		<span class="p">{</span>
+			<span class="n">currentDrone1_</span> <span class="o">=</span> <span class="n">sensed</span><span class="p">;</span>
+			<span class="k">return</span> <span class="mi">1</span><span class="p">;</span>
+		<span class="p">}</span>
+		<span class="k">else</span>
+		<span class="p">{</span>
+			<span class="n">currentDrone2_</span> <span class="o">=</span> <span class="n">sensed</span><span class="p">;</span>
+			<span class="k">return</span> <span class="mi">2</span><span class="p">;</span>
+		<span class="p">}</span>
+	<span class="p">}</span>
+	<span class="p">...</span>
+<span class="p">}</span></code></pre></figure>
+
+<p>make Stub Class</p>
+
+<figure class="highlight"><pre><code class="language-cpp" data-lang="cpp"><span class="c1">// 문제 3. 테스트 코드 작성</span>
+<span class="k">class</span> <span class="nc">StubSensor</span><span class="o">:</span> <span class="k">public</span> <span class="n">FireSensor</span>
+<span class="p">{</span>
+<span class="nl">public:</span>
+	<span class="n">POS</span> <span class="n">m_testPos</span><span class="p">;</span>	
+	<span class="n">POS</span> <span class="n">getSensorPosition</span><span class="p">(){</span>
+		<span class="k">return</span> <span class="n">m_testPos</span><span class="p">;</span>
+	<span class="p">}</span>
+<span class="p">};</span>
+
+<span class="kt">void</span> <span class="nf">test_3_1</span><span class="p">()</span>
+<span class="p">{</span>
+	<span class="c1">// TODO: 항목 3-1. </span>
+	<span class="c1">// 화재 위치가 센서 1, 7, 2, 3, 5 순으로 감지되는 상황을 재현하는 테스트 코드</span>
+	<span class="n">StubSensor</span> <span class="n">sensor</span><span class="p">;</span>
+	<span class="n">DroneController</span> <span class="n">dc</span><span class="p">((</span><span class="n">FireSensor</span><span class="o">*</span><span class="p">)</span><span class="o">&amp;</span><span class="n">sensor</span><span class="p">);</span>
+	<span class="n">sensor</span><span class="p">.</span><span class="n">m_testPos</span><span class="p">.</span><span class="n">y</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span> <span class="n">sensor</span><span class="p">.</span><span class="n">m_testPos</span><span class="p">.</span><span class="n">x</span> <span class="o">=</span> <span class="mi">10</span><span class="p">;</span>
+	<span class="n">dc</span><span class="p">.</span><span class="n">selectDrone</span><span class="p">();</span>
+	<span class="n">sensor</span><span class="p">.</span><span class="n">m_testPos</span><span class="p">.</span><span class="n">y</span> <span class="o">=</span> <span class="mi">8</span><span class="p">;</span> <span class="n">sensor</span><span class="p">.</span><span class="n">m_testPos</span><span class="p">.</span><span class="n">x</span> <span class="o">=</span> <span class="mi">2</span><span class="p">;</span>
+	<span class="n">dc</span><span class="p">.</span><span class="n">selectDrone</span><span class="p">();</span>
+	<span class="n">sensor</span><span class="p">.</span><span class="n">m_testPos</span><span class="p">.</span><span class="n">y</span> <span class="o">=</span> <span class="mi">2</span><span class="p">;</span> <span class="n">sensor</span><span class="p">.</span><span class="n">m_testPos</span><span class="p">.</span><span class="n">x</span> <span class="o">=</span> <span class="mi">6</span><span class="p">;</span>
+	<span class="n">dc</span><span class="p">.</span><span class="n">selectDrone</span><span class="p">();</span>
+	<span class="n">sensor</span><span class="p">.</span><span class="n">m_testPos</span><span class="p">.</span><span class="n">y</span> <span class="o">=</span> <span class="mi">4</span><span class="p">;</span> <span class="n">sensor</span><span class="p">.</span><span class="n">m_testPos</span><span class="p">.</span><span class="n">x</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+	<span class="n">dc</span><span class="p">.</span><span class="n">selectDrone</span><span class="p">();</span>
+	<span class="n">sensor</span><span class="p">.</span><span class="n">m_testPos</span><span class="p">.</span><span class="n">y</span> <span class="o">=</span> <span class="mi">6</span><span class="p">;</span> <span class="n">sensor</span><span class="p">.</span><span class="n">m_testPos</span><span class="p">.</span><span class="n">x</span> <span class="o">=</span> <span class="mi">10</span><span class="p">;</span>
+	<span class="n">dc</span><span class="p">.</span><span class="n">selectDrone</span><span class="p">();</span>
+<span class="p">}</span></code></pre></figure>
+
+<h3 id="github-na">GitHub (n/a)</h3>
+
+<p><img src="/algoguru/assets/img/posting/drone_go.png" alt="DroneGo" /></p>
+
+    
+  </section>
+
+  <!-- Social media shares -->
+  
+
+<div class="share-buttons">
+    <ul class="share-buttons">
+        <div class="meta">Share</div>
+        
+        <li>
+            <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fcoolwindjo.github.io%2Falgoguru%2F2019%2F04%2F09%2Funittest-drone-go.html" target="_blank" title=" Facebook">
+			<i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
+			<span class="sr-only">Share on Facebook</span>
+		</a>
+        </li>
+         
+        <li>
+            <a href="https://twitter.com/intent/tweet?text=UnitTest%3A+Drone+Go%20https%3A%2F%2Fcoolwindjo.github.io%2Falgoguru%2F2019%2F04%2F09%2Funittest-drone-go.html" target="_blank" title="">
+			<i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
+			<span class="sr-only">Tweet</span>
+		</a>
+        </li>
+            
+        <li>
+            <a href="http://www.reddit.com/submit?url=https://coolwindjo.github.io/algoguru/2019/04/09/unittest-drone-go.html&title=UnitTest%3A+Drone+Go%20%7C%20Cool+wind+on+prob_solv" target="_blank" title=" Reddit">
+			<i class="fa fa-reddit-square fa-2x" aria-hidden="true"></i>
+			<span class="sr-only">Share on Reddit</span>
+		</a>
+        </li>
+           
+        <li>
+            <a href="mailto:?subject=UnitTest%3A+Drone+Go%20%7C%20Cool+wind+on+prob_solv&body=:%20https://coolwindjo.github.io/algoguru/2019/04/09/unittest-drone-go.html" target="_blank" title="">
+			<i class="fa fa-envelope-square fa-2x" aria-hidden="true"></i>
+			<span class="sr-only">Email</span>
+		</a>
+        </li>
+        
+    </ul>
+</div>
+
+
+
+
+   <!-- Tag list -->
+  
+  
+
+
+<footer>
+  <div class="tag-list">
+    
+      <div class="meta">Tags</div>
+    
+
+    
+    <a class="button" href="/algoguru/tags#C%2B%2B">
+      <p><i class="fa fa-tag fa-fw"></i> C++</p>
+    </a>
+    
+    <a class="button" href="/algoguru/tags#implementation">
+      <p><i class="fa fa-tag fa-fw"></i> implementation</p>
+    </a>
+    
+    <a class="button" href="/algoguru/tags#unittest">
+      <p><i class="fa fa-tag fa-fw"></i> unittest</p>
+    </a>
+    
+  </div>
+</footer>
+
+
+</article>
+
+<!-- Disqus -->
+
+
+<!-- Post navigation -->
+
+  <div id="post-nav">
+    
+    <div id="previous-post">
+        <a alt="Circle List Order" href="/algoguru/2019/04/22/circle-list-order.html">
+            <p>Previous post</p>
+            Circle List Order
+        </a>
+    </div>
+    
+
+    
+    <div id="next-post">
+        <a alt="Mario game" href="/algoguru/2019/04/08/mario-game.html">
+            <p>Next post</p>
+            Mario game
+        </a>
+    </div>
+    
+</div>
+
+
+
+<!-- To change color of links in the page -->
+<style>
+  
+
+  header#main {
+    background-repeat:no-repeat;
+  
+  }
+</style>
+
+    </div>
+    <footer class="site-footer">
+    <p class="text">
+        © 2019 coolwind@hotmail.co.kr All rights reserved. Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
+</p>
+            <div class="footer-icons">
+                <ul>
+                <!-- Social icons from Font Awesome, if enabled -->
+                
+<li>
+    <a feed.xml href="/algoguru/feed.xml"
+       title="Follow RSS feed">
+        <span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+        </span>
+    </a>
+</li>
+
+
+
+<li>
+    <a href="mailto:coolwind@hotmail.co.kr" title="Email">
+		<span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+        </span>
+    </a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+    <a href="https://github.com/coolwindjo" title="Follow on GitHub">
+		<span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+        </span>
+    </a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+    <a href="https://coolwindjo.wordpress.com/"
+       title="Follow on WordPress">
+		<span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-wordpress fa-stack-1x fa-inverse"></i>
+        </span>
+    </a>
+</li>
+
+
+
+
+                </ul>
+            </div>
+</footer>
+
+
+
+  </body>
+</html>
