@@ -1,7 +1,6 @@
 # SITE CONFIGURATION
 baseurl: "/algoguru"
 url: "https://coolwindjo.github.io"
-title: Cool Wind
 
 # THEME-SPECIFIC CONFIGURATION
 title: Cool wind on prob_solv # blog's title
@@ -14,7 +13,7 @@ gravatar: # Email MD5 hash
 header_text: Cool wind on studying algorithm <code>prob_solv</code>
 header_feature_image: assets/img/pexels/cls63amg_running.jpeg
 footer_text: >
-  © 2019 coolwind@outlook.kr All rights reserved. Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
+  © 2019 coolwind@hotmail.co.kr All rights reserved. Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
 
 # Blog
 excerpt: true                                           # Or "truncate" (first 250 characters), "false" to disable

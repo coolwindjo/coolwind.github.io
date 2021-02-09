@@ -8,7 +8,7 @@ tags:
 ---
 
 ### GitHub
-[Game2048](https://github.com/coolwindjo/RefCodes/blob/master/AlgoGuruProject/Done/Game2048 "Game2048")
+[Game2048](https://github.com/coolwindjo/RefCodes/tree/master/AlgoGuruProject/Cpp/Done/Game2048 "Game2048")
 
 ![Game2048]({{ "/assets/img/posting/game_2048.png" | relative_url }})
 

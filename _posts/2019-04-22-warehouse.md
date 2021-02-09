@@ -7,7 +7,7 @@ tags:
 ---
 
 ### GitHub
-[Warehouse](https://github.com/coolwindjo/RefCodes/blob/master/AlgoGuruProject/Done/Warehouse "Warehouse")
+[Warehouse](https://github.com/coolwindjo/RefCodes/tree/master/AlgoGuruProject/Cpp/Done/Warehouse "Warehouse")
 
 ![Warehouse]({{ "/assets/img/posting/warehouse.png" | relative_url }})
 

@@ -8,7 +8,7 @@ tags:
 ---
 
 ### GitHub
-[MarioGame](https://github.com/coolwindjo/RefCodes/blob/master/AlgoGuruProject/Done/MarioGame "MarioGame")
+[MarioGame](https://github.com/coolwindjo/RefCodes/tree/master/AlgoGuruProject/Cpp/Done/MarioGame "MarioGame")
 
 ![MarioGame]({{ "/assets/img/posting/mario.png" | relative_url }})
 

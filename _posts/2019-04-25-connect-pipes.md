@@ -10,7 +10,7 @@ tags:
 ---
 
 ### GitHub
-[ConnectPipes](https://github.com/coolwindjo/RefCodes/blob/master/AlgoGuruProject/Done/ConnectPipes "ConnectPipes")
+[ConnectPipes](https://github.com/coolwindjo/RefCodes/tree/master/AlgoGuruProject/Cpp/Done/ConnectPipes "ConnectPipes")
 
 ![ConnectPipes]({{ "/assets/img/posting/connect_pipes.png" | relative_url }})
 

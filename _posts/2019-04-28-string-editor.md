@@ -8,7 +8,7 @@ tags:
 ---
 
 ### GitHub
-[StringEditor](https://github.com/coolwindjo/RefCodes/blob/master/AlgoGuruProject/Done/StringEditor "StringEditor")
+[StringEditor](https://github.com/coolwindjo/RefCodes/tree/master/AlgoGuruProject/Cpp/Done/StringEditor "StringEditor")
 
 ![StringEditor]({{ "/assets/img/posting/string_editor.png" | relative_url }})
 

@@ -8,7 +8,7 @@ tags:
 ---
 
 ### GitHub
-[PermCycles](https://github.com/coolwindjo/RefCodes/blob/master/AlgoGuruProject/Done/PermCycles "PermCycles")
+[PermCycles](https://github.com/coolwindjo/RefCodes/tree/master/AlgoGuruProject/Cpp/Done/PermCycles "PermCycles")
 
 ![PermCycles]({{ "/assets/img/posting/perm_cycles.png" | relative_url }})
 

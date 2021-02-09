@@ -9,7 +9,7 @@ tags:
 ---
 
 ### GitHub
-[RoadConstruction](https://github.com/coolwindjo/RefCodes/blob/master/AlgoGuruProject/Done/RoadConstruction "RoadConstruction")
+[RoadConstruction](https://github.com/coolwindjo/RefCodes/tree/master/AlgoGuruProject/Cpp/Done/RoadConstruction "RoadConstruction")
 
 ![RoadConstruction]({{ "/assets/img/posting/road_construction.png" | relative_url }})
 

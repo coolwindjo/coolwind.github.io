@@ -7,7 +7,7 @@ tags:
 ---
 
 ### GitHub
-[HikingTrail](https://github.com/coolwindjo/RefCodes/blob/master/AlgoGuruProject/Done/HikingTrail "HikingTrail")
+[HikingTrail](https://github.com/coolwindjo/RefCodes/tree/master/AlgoGuruProject/Cpp/Done/HikingTrail "HikingTrail")
 
 ![HikingTrail]({{ "/assets/img/posting/hiking_trail.png" | relative_url }})
 

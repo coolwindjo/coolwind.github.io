@@ -9,7 +9,7 @@ tags:
 ---
 
 ### GitHub
-[StemCellCulture](https://github.com/coolwindjo/RefCodes/blob/master/AlgoGuruProject/Done/StemCellCulture "StemCellCulture")
+[StemCellCulture](https://github.com/coolwindjo/RefCodes/tree/master/AlgoGuruProject/Cpp/Done/StemCellCulture "StemCellCulture")
 
 ![StemCellCulture]({{ "/assets/img/posting/stem_cell_culture.png" | relative_url }})
 
